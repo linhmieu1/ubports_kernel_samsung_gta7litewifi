@@ -539,3 +539,6 @@
 	mt6370pd,intr_gpio_num = <41>;
 	mt6370pd,intr_gpio = <&pio 41 0x0>;
 };
+
+* Override PMIC: MT6359 instead of MT6357 */
+#include "mediatek/mt6359.dtsi"
