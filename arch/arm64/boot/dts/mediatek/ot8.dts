@@ -540,5 +540,12 @@
 	mt6370pd,intr_gpio = <&pio 41 0x0>;
 };
 
+
+/* Fix main_pmic compatible for MT6359 */
+&main_pmic {
+        compatible = "mediatek,mt6359";
+        interrupts = <144 IRQ_TYPE_LEVEL_HIGH 144 0>;
+};
+
 * Override PMIC: MT6359 instead of MT6357 */
 #include "mediatek/mt6359.dtsi"
