@@ -4257,7 +4257,7 @@ firmware_class.path=/vendor/firmware";
 };
 
 #include "mediatek/cust_mt6765_msdc.dtsi"
-#include "mediatek/mt6357.dtsi"
+/* #include "mediatek/mt6357.dtsi" */
 #include "mediatek/bat_setting/mt6765_battery_prop.dtsi"
 #ifdef CONFIG_HQ_PROJECT_OT8
 #include "mediatek/TabA7_Lite/AX3565-OT8-common.dtsi"
